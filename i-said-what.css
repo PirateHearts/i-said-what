@@ -1,0 +1,90 @@
+﻿/* Resets */
+html, body, p, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+a
+{
+	color: rgb(217, 217, 217);
+	/*text-decoration:none;*/
+}
+a.nodeco
+{
+	color: rgb(217, 217, 217);
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+body
+{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(217, 217, 217);
+	background-color: #181818;
+}
+
+div.fixed
+{
+	top: 0;
+	width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	height: 100px;
+	position: fixed;
+	overflow: hidden;
+	background-color: #303030;
+}
+
+div.scrolling
+{
+	margin-top: 120px;
+}
+
+div.buttons
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+span.selected
+{
+	font-weight: 800;
+	color: rgb(255, 255, 255);
+}
+
+p.page_tabs
+{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p.tweet_header
+{
+	max-width: 550px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p.tweet_loading
+{
+	display: flex;
+	max-width: 550px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
