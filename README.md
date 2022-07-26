@@ -22,7 +22,7 @@ I've been working around this by launching Chrome with the "--allow-file-access-
 
 If you have access to some scratch space on a web site somewhere, you could also upload the archive folder (including the i-said-what files) to the internets and then it wouldn't have this problem. In fact, "data/tweets.js" is the only file this tool interfaces with, so you could reduce the footprint by only uploading that one and the i-said-what files.
 
-## Ideas Future Improvements
+## Ideas for Future Improvements
 
  - Track and display which days on the calendar have been visited already
  - Maintain current Tweets and page number if the page is refreshed
